@@ -16,7 +16,7 @@ NOTE: You must have a spotify developer's account to run this project.
 
 These are only instructions for testing the project, not deploying.
 
-PREREQUISITES: Make sure to have docker and python installed on your desktop. And also download [this dataset](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset) and put it in the frontend folder as `dataset.csv`
+PREREQUISITES: Make sure to have docker and python installed on your desktop. And also download [this dataset](https://www.mediafire.com/file/9dcqyt1qbfgx1rj/dataset.csv/file) and put it in the frontend folder as `dataset.csv` (original dataset was taken from [here](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset))
 
 ### 1. Configure Environment Files
 1. Go to the backend directory and make a new folder there named "run", inside it make another folder "secrets". Finally, inside the secrets folder make the file "API_KEY.env", it must look like this:
