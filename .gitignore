@@ -4,3 +4,4 @@
 /__pycache__/
 .cache
 /archive.zip
+/frontend/dataset.csv
