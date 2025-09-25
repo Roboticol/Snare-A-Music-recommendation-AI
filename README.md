@@ -3,6 +3,7 @@ An AI-powered music recommendation system with a dedicated **frontend** and **ba
 
 Check out the [demo](https://snare-frontend.onrender.com/)
 
+![25 09 2025_21 42 20_REC](https://github.com/user-attachments/assets/5d930517-7514-42fb-bc61-9abc77d6bb00)
 
 ## Features
 - Intelligent music recommendation engine (AI-powered backend).  
