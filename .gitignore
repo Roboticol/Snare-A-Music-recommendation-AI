@@ -1,5 +1,6 @@
 .env
 /backend/run/
+/backend/__pycache__/
 /__pycache__/
 .cache
 /archive.zip
