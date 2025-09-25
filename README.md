@@ -1,6 +1,8 @@
 # Snare 🎵  
 An AI-powered music recommendation system with a dedicated **frontend** and **backend**, each dockerized for easy deployment.  
 
+Check out the [demo](https://snare-frontend.onrender.com/)
+
 ## Features
 - Intelligent music recommendation engine (AI-powered backend).  
 - Streamlit frontend interface for exploring recommendations.  
