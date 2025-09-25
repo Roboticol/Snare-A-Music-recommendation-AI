@@ -3,6 +3,7 @@ An AI-powered music recommendation system with a dedicated **frontend** and **ba
 
 Check out the [demo](https://snare-frontend.onrender.com/)
 
+
 ## Features
 - Intelligent music recommendation engine (AI-powered backend).  
 - Streamlit frontend interface for exploring recommendations.  
@@ -14,6 +15,8 @@ Check out the [demo](https://snare-frontend.onrender.com/)
 NOTE: You must have a spotify developer's account to run this project.
 
 These are only instructions for testing the project, not deploying.
+
+PREREQUISITES: Make sure to have docker and python installed on your desktop. And also download [this dataset](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset) and put it in the frontend folder as `dataset.csv`
 
 ### 1. Configure Environment Files
 1. Go to the backend directory and make a new folder there named "run", inside it make another folder "secrets". Finally, inside the secrets folder make the file "API_KEY.env", it must look like this:
