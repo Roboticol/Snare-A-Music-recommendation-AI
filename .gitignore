@@ -1,0 +1,5 @@
+.env
+/backend/run/
+/__pycache__/
+.cache
+/archive.zip

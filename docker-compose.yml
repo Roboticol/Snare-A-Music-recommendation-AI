@@ -1,0 +1,22 @@
+services:
+  backend:
+    build: ./backend
+    container_name: snare-backend
+    ports:
+      - "8000:8000"   # so you can still access from host
+    networks:
+      - appnet
+
+  frontend:
+    build: ./frontend
+    container_name: snare-frontend
+    ports:
+      - "8501:8501"
+    networks:
+      - appnet
+    depends_on:
+      - backend
+
+networks:
+  appnet:
+    driver: bridge
