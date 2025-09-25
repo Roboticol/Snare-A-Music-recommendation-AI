@@ -11,7 +11,7 @@ An AI-powered music recommendation system with a dedicated **frontend** and **ba
 ## Running with Docker
 NOTE: You must have a spotify developer's account to run this project.
 
-NOTE: These are only instructions for testing the project, not deploying.
+These are only instructions for testing the project, not deploying.
 
 ### 1. Configure Environment Files
 1. Go to the backend directory and make a new folder there named "run", inside it make another folder "secrets". Finally, inside the secrets folder make the file "API_KEY.env", it must look like this:
@@ -26,7 +26,7 @@ client_secret = SPOTIFY DEV CLIENT SECRET
 
 API_KEY = CUSTOM API KEY OF YOUR BACKEND
 
-API_URL (only required if you're using this outside of testing) = URL TO BACKEND i.e https://backend.com/predict
+API_URL = URL TO BACKEND i.e https://backend.com/predict (only required if you're using this outside of testing)
 ```
 ### 2. Run the Project (Must have Docker installed)
 ```bash
