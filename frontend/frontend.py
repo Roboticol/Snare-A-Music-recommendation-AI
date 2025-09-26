@@ -32,7 +32,7 @@ df = pd.read_csv('dataset.csv')
 df = df.drop(["Unnamed: 0"], axis=1)
 
 st.title("Snare - A music recommendation model")
-st.markdown("Made by [Roboticol](https://github.com/Roboticol), Check out the [repo](https://github.com/Roboticol/Snare-A-Music-recommendation-AI) too!")
+st.markdown("Made by [Roboticol](https://github.com/Roboticol), Check out the [repo](https://github.com/Roboticol/Snare-A-Music-recommendation-AI) too! NOTE: The backend might shut down sometimes, if that happens, just visit (this)[https://snare-backend.onrender.com/] website once and it will turn back on.")
 
 # Search for tracks
 search = st.multiselect("Search for a track", df['track_search'].tolist())
